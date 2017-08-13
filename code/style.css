@@ -1,0 +1,174 @@
+header{
+	float: left;
+	width: 100%;
+	background-image:url(images/triangle-back-pink.png); 
+}
+.navigation{
+	margin: 0 auto;
+	width: 700px;
+	height: 70px;
+}
+.navigation h2{
+	float: left;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight:normal;
+}
+.navigation img {
+    float: left;
+    height: 20px;
+    width: 18px;
+    padding-top: 14px;
+    padding-right: 3px;
+}
+.navigation h2:hover{
+	border-bottom: solid 3px #EA5A82;
+	font-weight: bold;
+}
+
+.nav-h{
+	float: left;
+	width: 84px;
+	margin: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav-h img{
+	opacity: 1;
+}
+.nav-h h2:hover .nav-h img{
+	opacity: 1;
+}
+ /*.hamburger:hover .ham-content{
+    	display: block;
+    }
+*/
+.nav-w{
+	float: left;
+	width: 84px;
+	margin: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav-e{
+	float: left;
+	width: 144px;
+	margin: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav-c{
+	float: left;
+	width: 114px;
+	margin: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.chuyi-photo{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.chuyi-container{
+	width: 128px;
+	margin: 0 auto;
+}
+.chuyi-photo img{
+	width: 100%;
+	float: left;
+}
+	
+.chuyi-text{
+	margin: 0 auto;
+	width: 750px;
+}
+.chuyi-text-a {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.chuyi-text-b{
+	float: left;
+	width: 100%;
+}
+
+.chuyi-text-a h3 {
+    float: right;
+    font-size: 36px;
+    font-family: helvetica;
+   width: 96%;
+    margin: 0;
+    font-weight: normal;
+}
+.chuyi-text-a img {
+    float: left;
+    height: 24px;
+    padding-top: 8px;
+}
+
+.chuyi-text-b h4 {
+    float: right;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: helvetica;
+    width: 96%;
+    padding: 0;
+    margin: 0;
+}
+.chuyi-text-b img {
+    float: left;
+    height: 15px;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.resume{
+	float: left;
+	width: 100%;
+}
+
+.resume h4 {
+    border: 1px solid #EA5A82;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-family: helvetica;
+    color: #EA5A82;
+}
+.resume h4:hover{
+	background-color: #EA5A82;
+	color: #FFF;
+}
+
+.work{
+	float: left;
+	width: 100%;
+}
+
+.work-container{
+	width: 267px;
+	float: left;
+	border:solid  #EA5A82 1px;
+}
+.work-beer{
+	width: 240px;
+	margin: 0 auto;
+}
+
+.work-beer img{
+	/*width: 240px;
+	margin: 0 auto;*/
+}
+
+
+
+
+
+
+
