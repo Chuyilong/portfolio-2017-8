@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="240px" height="164px" viewBox="0 0 240 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="267px" height="224px" viewBox="0 0 267 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Path 2</title>
+    <title>Group 3</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="267" height="224"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="267" height="224" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M14,192.78 L80.0681466,192.78 C80.0681466,192.78 74,192.78 74,178.78 L74,115.772064 C74,115.772064 73.9215046,104.411398 78,102.78 C82.0784954,101.148602 84,87.78 84,87.78 L88,43.78 C88,43.78 85.3221376,39.9934349 88,36.78 C88.8511864,35.7585763 87.9660694,36.2900935 87,35.78 C86.0339306,35.2699065 83,31 96,31 C108.35977,31 106,34 106,34 C106,34 107,35.78 105,36.78 C103,37.78 106,38 105,41 C104,44 104,44.78 104,44.78 L109,87.78 C109,87.78 109,100.78 114,102.78 C119,104.78 118,115.78 118,115.78 L119,178.78 C119,178.78 118,189.78 115,191.78 C112,193.78 161.043458,191.78 161.043458,191.78 L167,191.78 C167,191.78 162,191.78 162,184.78 C162,177.78 162,103.78 162,103.78 C162,103.78 162,101.78 167,100.78 C172,99.78 205,100.78 205,100.78 C205,100.78 210,100.78 210,103.78 L210,184.78 C210,184.78 211,190.78 208,190.78 C205,190.78 254,190.78 254,190.78" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="red" transform="translate(-249.000000, -613.000000)" stroke="#EA5A82" stroke-width="2" fill="#FDEFEF">
-            <path d="M249,775.78 L315.068147,775.78 C315.068147,775.78 309,775.78 309,761.78 L309,698.772064 C309,698.772064 308.921505,687.411398 313,685.78 C317.078495,684.148602 319,670.78 319,670.78 L323,626.78 C323,626.78 320.322138,622.993435 323,619.78 C323.851186,618.758576 322.966069,619.290093 322,618.78 C321.033931,618.269907 318,614 331,614 C343.35977,614 341,617 341,617 C341,617 342,618.78 340,619.78 C338,620.78 341,621 340,624 C339,627 339,627.78 339,627.78 L344,670.78 C344,670.78 344,683.78 349,685.78 C354,687.78 353,698.78 353,698.78 L354,761.78 C354,761.78 353,772.78 350,774.78 C347,776.78 396.043458,774.78 396.043458,774.78 L402,774.78 C402,774.78 397,774.78 397,767.78 C397,760.78 397,686.78 397,686.78 C397,686.78 397,684.78 402,683.78 C407,682.78 440,683.78 440,683.78 C440,683.78 445,683.78 445,686.78 L445,767.78 C445,767.78 446,773.78 443,773.78 C440,773.78 489,773.78 489,773.78" id="Path-2"></path>
+        <g id="red" transform="translate(-235.000000, -583.000000)">
+            <g id="Group-3" transform="translate(235.000000, 583.000000)">
+                <use id="Rectangle-3" stroke="#EA5A82" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="Path-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#EA5A82" stroke-width="2" fill="#FDEFEF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
         </g>
     </g>
 </svg>
